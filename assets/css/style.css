@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(155, 154, 149);
+  float: left;
+  margin: 30px;
+  position: relative;
+}
+.container--sm {
+  width: 200px;
+}
+.container--lg {
+  width: 400px;
+  margin-left: 0;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+}
+.block {
+}
+.block--1 {
+  background-color: brown;
+  top: 0;
+  left: 0;
+}
+.block--2 {
+  background-color: blueviolet;
+  top: 0;
+  left: 100px;
+}
+.block--3 {
+  background-color: blue;
+  top: 100px;
+  left: 0;
+}
+.block--4 {
+  background-color: rgb(13, 115, 60);
+  top: 100px;
+  left: 100px;
+}
+.block--5 {
+  background-color: blue;
+  top: 150px;
+  left: -50px;
+  z-index: -1;
+}
+.block--6 {
+  background-color: blue;
+  top: 150px;
+  left: 150px;
+  z-index: 1;
+}
+.block--7 {
+  background-color: blue;
+  top: 150px;
+  left: 350px;
+  z-index: -1;
+}
+.block--8 {
+  background-color: brown;
+  top: 25px;
+  left: 25px;
+  width: 350px;
+  height: 150px;
+}
